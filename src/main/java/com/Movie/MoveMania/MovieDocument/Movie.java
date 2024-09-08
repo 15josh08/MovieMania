@@ -1,4 +1,4 @@
-package com.Movie.MovieDocument;
+package com.Movie.MoveMania.MovieDocument;
 
 import java.util.List;
 

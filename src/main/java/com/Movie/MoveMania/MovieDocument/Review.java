@@ -1,4 +1,4 @@
-package com.Movie.MovieDocument;
+package com.Movie.MoveMania.MovieDocument;
 
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
