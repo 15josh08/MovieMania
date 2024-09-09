@@ -34,4 +34,9 @@ public class ControllerMovie {
     public Optional<Movie> getMovieById(@PathVariable ObjectId id) {
         return movieService.getMovieById(id);
     }
+
+    @GetMapping("/imdb/{imdbId}")
+    public Optional<Movie> getMovieByImdbId(@PathVariable String imdbId) {
+        return movieService.getMovieByImdbId(imdbId);
+    }
 }
